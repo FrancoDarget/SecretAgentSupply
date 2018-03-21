@@ -1,1 +1,100 @@
+body{
+  margin: 0%;
+  font-family: Helvetica;
+}
 
+/* HEADER */
+header{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderContent{
+width: 960px;
+display: flex;
+flex-direction: row;
+margin-top: 0.66rem;
+margin-bottom: 0.66rem;
+}
+
+.HeaderContent p{
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.HeaderContent img{
+height: 1.5rem;
+margin-left: 0.5rem;
+margin-right: 1rem;
+}
+/* HEADER */
+
+/* BANNER */
+.banner {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+  background-color: black;
+  color: white;
+  margin-left: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25rem;
+  margin-top: 9rem;
+}
+
+.BannerContent{
+  margin: 2rem 3rem;
+}
+
+.BannerContent p{
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.BannerContent h1{
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* BANNER */
+
+/* NAV */
+.nav{
+  background-color: firebrick;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+
+.navp{
+  width: 960px;
+  display: flex;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  justify-content: space-between;
+}
+/* NAV */
+
+/* CONTENT */
+
+
+
+/* CONTENT */

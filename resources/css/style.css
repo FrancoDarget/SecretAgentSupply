@@ -218,9 +218,35 @@ align-items: center;
 /* FOOTER */
 
 @media only screen and (max-width:1024px) {
-.banner{
+.glass{
   display: none;
 }
 
+.items{
+  display: flex;
+  justify-content: center;
+}
 
+.pen{
+  margin-right: 40px;
+  width: 31%;
+}
+
+.watch{
+  margin-left: 40px;
+  width: 31%;
+}
+
+.information{
+  display: flex;
+  justify-content: center;
+}
+
+.location{
+  margin-right: 10px;
+}
+
+.hours{
+  margin-left: 10px;
+}
 }
